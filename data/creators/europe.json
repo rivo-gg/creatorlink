@@ -1,0 +1,65 @@
+{
+  "papaplatte": {
+    "name": "Papaplatte",
+    "steam": {
+      "id": "76561198013760707",
+      "name": "lattensepp"
+    },
+    "discord": {
+      "id": "169926504657059840",
+      "username": "papaplatte420",
+      "partner": true
+    },
+    "twitch": {
+      "id": "papaplatte",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "@papaplatte",
+      "id": "UCDmbhGe7-wC1a55l5ZYAZJw",
+      "partner": true
+    }
+  },
+  "honeypuu": {
+    "name": "HoneyPuu",
+    "steam": {
+      "id": "76561198405910426",
+      "name": "HoneyPuu"
+    },
+    "discord": {
+      "id": "247064492427444224",
+      "username": "honeypuu",
+      "partner": false
+    },
+    "twitch": {
+      "id": "honeypuu",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "honeypuu",
+      "id": "UC6lv714giE5fvmlUhS3d9gg",
+      "partner": true
+    }
+  },
+  "letshugo": {
+    "name": "LetsHugo",
+    "steam": {
+      "id": "76561198287958160",
+      "name": "LetsHugo"
+    },
+    "discord": {
+      "id": "252817918159486977",
+      "username": "letshugo",
+      "partner": false
+    },
+    "twitch": {
+      "id": "letshugotv",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "@LetsHugo",
+      "id": "UCGrEhW-D986zSjijnnhq5hg",
+      "partner": true
+    }
+  }
+}

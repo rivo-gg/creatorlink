@@ -20,4 +20,4 @@ jobs:
         with:
           comment: "true"
           files: 
-             "/data/creators/europe.json"
+             "../../data/creators/europe.json"

@@ -16,15 +16,12 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          // Define the labels and the issue/PR number
           const labelToAdd = 'invalid';
           const issue_number = context.payload.issue ? context.payload.issue.number : context.payload.pull_request.number;
 
-          // Get the existing labels
           const existingLabels = context.payload.issue ? context.payload.issue.labels : context.payload.pull_request.labels;
           const labelExists = existingLabels.some(label => label.name === labelToAdd);
 
-          // Add the 'invalid' label if not already present
           if (!labelExists) {
             await github.rest.issues.addLabels({
               owner: context.repo.owner,
@@ -37,11 +34,11 @@ jobs:
             console.log(`Label "${labelToAdd}" already exists on issue/pr #${issue_number}. No action taken.`);
           }
 
-          // Close the issue or PR
           await github.rest.issues.update({
             owner: context.repo.owner,
             repo: context.repo.repo,
             issue_number: issue_number,
             state: 'closed'
+            state_reason: 'not_planned'
           });
           console.log(`Issue/PR #${issue_number} closed.`);

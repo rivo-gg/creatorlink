@@ -2,7 +2,7 @@
 name: Outdated Creator Information
 about: Report outdated creator information being used in creatordata
 title: Some data for [Creator] is outdated
-labels: outdated-creator
+labels: outdated creator
 assignees: ''
 
 ---

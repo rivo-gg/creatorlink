@@ -39,7 +39,7 @@ If you're a developer and have ideas for improving the codebase, feel free to su
 * **Consistency:** Follow the existing formatting within the JSON file. 
 * **Clarity:**  Clearly communicate the changes you made in your pull request description.
 
-Pull requests that do not meet our quality standards may be closed without explanation and/or given a `low quality' label.
+Pull requests that do not meet our quality standards may be closed without explanation and/or given a `low quality` label.
 
 **Thank You!**
 

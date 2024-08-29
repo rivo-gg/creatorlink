@@ -1,6 +1,7 @@
 {
   "papaplatte": {
     "name": "Papaplatte",
+    "aliases": ["lattensepp"],
     "steam": {
       "id": "76561198013760707",
       "name": "lattensepp"
@@ -22,6 +23,7 @@
   },
   "honeypuu": {
     "name": "HoneyPuu",
+    "aliases": null,
     "steam": {
       "id": "76561198405910426",
       "name": "HoneyPuu"
@@ -43,6 +45,7 @@
   },
   "letshugo": {
     "name": "LetsHugo",
+    "aliases": null,
     "steam": {
       "id": "76561198287958160",
       "name": "LetsHugo"

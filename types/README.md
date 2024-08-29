@@ -31,7 +31,6 @@ interface Creator {
 }
 
 // Example 
-
 const honeypuu: Creator = {
   name: "HoneyPuu",
   aliases: null,

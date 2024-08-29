@@ -16,44 +16,32 @@ jobs:
       uses: actions/github-script@v6
       with:
         script: |
-          const github = require('@actions/github');
-
           // Define the labels and the issue/PR number
           const labelToAdd = 'invalid';
-          const issue_number = github.context.payload.issue ? github.context.payload.issue.number : github.context.payload.pull_request.number;
+          const issue_number = context.payload.issue ? context.payload.issue.number : context.payload.pull_request.number;
 
           // Get the existing labels
-          const existingLabels = github.context.payload.issue ? github.context.payload.issue.labels : github.context.payload.pull_request.labels;
+          const existingLabels = context.payload.issue ? context.payload.issue.labels : context.payload.pull_request.labels;
           const labelExists = existingLabels.some(label => label.name === labelToAdd);
 
-          // Function to add a label
-          async function addLabel() {
+          // Add the 'invalid' label if not already present
+          if (!labelExists) {
             await github.rest.issues.addLabels({
-              owner: github.context.repo.owner,
-              repo: github.context.repo.repo,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
               issue_number: issue_number,
               labels: [labelToAdd]
             });
             console.log(`Label "${labelToAdd}" added to issue/pr #${issue_number}.`);
-          }
-
-          // Function to close the issue or PR
-          async function closeIssueOrPR() {
-            await github.rest.issues.update({
-              owner: github.context.repo.owner,
-              repo: github.context.repo.repo,
-              issue_number: issue_number,
-              state: 'closed'
-            });
-            console.log(`Issue/PR #${issue_number} closed.`);
-          }
-
-          // Add the 'invalid' label if not already present
-          if (!labelExists) {
-            await addLabel();
           } else {
             console.log(`Label "${labelToAdd}" already exists on issue/pr #${issue_number}. No action taken.`);
           }
 
           // Close the issue or PR
-          await closeIssueOrPR();
+          await github.rest.issues.update({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: issue_number,
+            state: 'closed'
+          });
+          console.log(`Issue/PR #${issue_number} closed.`);

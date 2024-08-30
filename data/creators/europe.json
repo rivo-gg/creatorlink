@@ -1,7 +1,9 @@
 {
   "papaplatte": {
     "name": "Papaplatte",
-    "aliases": ["lattensepp"],
+    "aliases": [
+      "lattensepp"
+    ],
     "steam": {
       "id": "76561198013760707",
       "name": "lattensepp"
@@ -67,7 +69,9 @@
   },
   "zarbex": {
     "name": "zarbex",
-    "aliases": ["Mr.Geil"],
+    "aliases": [
+      "Mr.Geil"
+    ],
     "steam": {
       "id": "76561198399217625",
       "name": "zarbex"
@@ -84,6 +88,50 @@
     "youtube": {
       "handle": "@zarbex",
       "id": "UCk5IRwxIo4lYyV4PzHhWxsg",
+      "partner": true
+    }
+  },
+  "filow": {
+    "name": "Filow",
+    "aliases": [],
+    "steam": {
+      "id": "76561198055228237",
+      "name": "Filow"
+    },
+    "discord": {
+      "id": "289395749538627584",
+      "username": "filow",
+      "partner": false
+    },
+    "twitch": {
+      "id": "filow",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "UCeyP7G6IFDUa6UypHghbxdw",
+      "id": "@Filow",
+      "partner": true
+    }
+  },
+  "reeze": {
+    "name": "Reeze",
+    "aliases": [""],
+    "steam": {
+      "id": "76561198131535172",
+      "name": "Reeze"
+    },
+    "discord": {
+      "id": "141704368217915392",
+      "username": "lemonreezy",
+      "partner": false
+    },
+    "twitch": {
+      "id": "reeze",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "@Reeze",
+      "id": "UCaOAZtbdp0K5CCzgEXM0F6Q",
       "partner": true
     }
   }

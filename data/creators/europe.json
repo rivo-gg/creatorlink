@@ -64,5 +64,27 @@
       "id": "UCGrEhW-D986zSjijnnhq5hg",
       "partner": true
     }
+  },
+  "zarbex": {
+    "name": "zarbex",
+    "aliases": ["Mr.Geil"],
+    "steam": {
+      "id": 76561198399217625,
+      "name": "zarbex"
+    },
+    "discord": {
+      "id": "278274544668639232",
+      "username": "zrbx",
+      "partner": false
+    },
+    "twitch": {
+      "id": "zarbex",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "@zarbex",
+      "id": "UCk5IRwxIo4lYyV4PzHhWxsg",
+      "partner": true
+    }
   }
 }

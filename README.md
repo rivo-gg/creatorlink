@@ -1,6 +1,15 @@
-# Creatorlink Database
+<div align="center">
+  <a href="https://github.com/rivo-gg/creatorlink">
+    <img src=".github/images/banner.png" alt="Creatorlink banner">
+  </a>
 
-A JSON dataset for game developers and app creators to manage and reserve usernames for content creators across multiple platforms.
+  <h3 align="center">Creatorlink Database</h3>
+
+  <p align="center">
+    A JSON dataset for game developers and app creators to manage and reserve usernames for content creators across multiple platforms.
+    <br />
+  </p>
+</div>
 
 ## Overview
 

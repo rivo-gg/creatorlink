@@ -40,7 +40,7 @@ Example:
 
 ## Usage
 
-To use this database, simply download the JSON file and parse it in your application. You can then lookup creators by their unique identifier or search through the data to find matches across platforms. Soon an API will follow!
+To use this database, simply download the JSON file and parse it in your application. You can then lookup creators by their unique identifier or search through the data to find matches across platforms. Feel free to make use of our [example types](https://github.com/rivo-gg/creatorlink-data/tree/main/types) for your project. *Soon an API will follow!*
 
 ## Contributing
 

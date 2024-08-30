@@ -1,4 +1,4 @@
-# Creator Database
+# Creatorlink Database
 
 A JSON dataset for game developers and app creators to manage and reserve usernames for content creators across multiple platforms.
 

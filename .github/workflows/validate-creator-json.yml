@@ -22,6 +22,6 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v3.2.1 
         with:
           comment: "false"
-          json_schema: "../../schema.json"
+          json_schema: "schema.json"
           files: 
              "../../data/creators/europe.json"

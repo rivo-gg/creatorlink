@@ -115,7 +115,7 @@
   },
   "reeze": {
     "name": "Reeze",
-    "aliases": [""],
+    "aliases": [],
     "steam": {
       "id": "76561198131535172",
       "name": "Reeze"
@@ -132,6 +132,57 @@
     "youtube": {
       "handle": "@Reeze",
       "id": "UCaOAZtbdp0K5CCzgEXM0F6Q",
+      "partner": true
+    }
+  },
+  "gronkh": {
+    "name": "Gronkh",
+    "aliases": [],
+    "steam": {
+      "id": "76561197984767093",
+      "name": "Gronkh"
+    },
+    "discord": {
+      "id": "99010890275225600",
+      "username": "grnkh",
+      "partner": false
+    },
+    "twitch": {
+      "id": "gronkh",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "@gronkh",
+      "id": "UCYJ61XIK64sp6ZFFS8sctxw",
+      "partner": true
+    }
+  },
+  "montanablack88": {
+    "name": "Montanablack",
+    "aliases": [
+      "Montanablack88",
+      "GetOnMyLvL",
+      "Monte",
+      "MontanaBlack88",
+      "spontanablack",
+      "SpontanaBlack"
+    ],
+    "steam": {
+      "id": "76561198202200829",
+      "name": "MisterFister"
+    },
+    "discord": {
+      "id": "332250378819338251",
+      "username": "getonmylvl",
+      "partner": false
+    },
+    "twitch": {
+      "id": "montanablack88",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "@montanablack",
+      "id": "UCpAMOlA_0hFXopIxMq8ar0w",
       "partner": true
     }
   }

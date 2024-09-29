@@ -1,189 +1,201 @@
-{
-  "papaplatte": {
-    "name": "Papaplatte",
-    "aliases": [
-      "lattensepp"
-    ],
-    "steam": {
-      "id": "76561198013760707",
-      "name": "lattensepp"
-    },
-    "discord": {
-      "id": "169926504657059840",
-      "username": "papaplatte420",
-      "partner": true
-    },
-    "twitch": {
-      "id": "papaplatte",
-      "partner": true
-    },
-    "youtube": {
-      "handle": "@papaplatte",
-      "id": "UCDmbhGe7-wC1a55l5ZYAZJw",
-      "partner": true
+[
+  {
+    "papaplatte": {
+      "name": "Papaplatte",
+      "aliases": ["lattensepp"],
+      "steam": {
+        "id": "76561198013760707",
+        "name": "lattensepp"
+      },
+      "discord": {
+        "id": "169926504657059840",
+        "username": "papaplatte420",
+        "partner": true
+      },
+      "twitch": {
+        "id": "papaplatte",
+        "partner": true
+      },
+      "youtube": {
+        "handle": "@papaplatte",
+        "id": "UCDmbhGe7-wC1a55l5ZYAZJw",
+        "partner": true
+      }
     }
   },
-  "honeypuu": {
-    "name": "HoneyPuu",
-    "aliases": null,
-    "steam": {
-      "id": "76561198405910426",
-      "name": "HoneyPuu"
-    },
-    "discord": {
-      "id": "247064492427444224",
-      "username": "honeypuu",
-      "partner": false
-    },
-    "twitch": {
-      "id": "honeypuu",
-      "partner": true
-    },
-    "youtube": {
-      "handle": "honeypuu",
-      "id": "UC6lv714giE5fvmlUhS3d9gg",
-      "partner": true
+  {
+    "honeypuu": {
+      "name": "HoneyPuu",
+      "aliases": null,
+      "steam": {
+        "id": "76561198405910426",
+        "name": "HoneyPuu"
+      },
+      "discord": {
+        "id": "247064492427444224",
+        "username": "honeypuu",
+        "partner": false
+      },
+      "twitch": {
+        "id": "honeypuu",
+        "partner": true
+      },
+      "youtube": {
+        "handle": "honeypuu",
+        "id": "UC6lv714giE5fvmlUhS3d9gg",
+        "partner": true
+      }
     }
   },
-  "letshugo": {
-    "name": "LetsHugo",
-    "aliases": null,
-    "steam": {
-      "id": "76561198287958160",
-      "name": "LetsHugo"
-    },
-    "discord": {
-      "id": "252817918159486977",
-      "username": "letshugo",
-      "partner": false
-    },
-    "twitch": {
-      "id": "letshugotv",
-      "partner": true
-    },
-    "youtube": {
-      "handle": "@LetsHugo",
-      "id": "UCGrEhW-D986zSjijnnhq5hg",
-      "partner": true
+  {
+    "letshugo": {
+      "name": "LetsHugo",
+      "aliases": null,
+      "steam": {
+        "id": "76561198287958160",
+        "name": "LetsHugo"
+      },
+      "discord": {
+        "id": "252817918159486977",
+        "username": "letshugo",
+        "partner": false
+      },
+      "twitch": {
+        "id": "letshugotv",
+        "partner": true
+      },
+      "youtube": {
+        "handle": "@LetsHugo",
+        "id": "UCGrEhW-D986zSjijnnhq5hg",
+        "partner": true
+      }
     }
   },
-  "zarbex": {
-    "name": "zarbex",
-    "aliases": [
-      "Mr.Geil"
-    ],
-    "steam": {
-      "id": "76561198399217625",
-      "name": "zarbex"
-    },
-    "discord": {
-      "id": "278274544668639232",
-      "username": "zrbx",
-      "partner": false
-    },
-    "twitch": {
-      "id": "zarbex",
-      "partner": true
-    },
-    "youtube": {
-      "handle": "@zarbex",
-      "id": "UCk5IRwxIo4lYyV4PzHhWxsg",
-      "partner": true
+  {
+    "zarbex": {
+      "name": "zarbex",
+      "aliases": ["Mr.Geil"],
+      "steam": {
+        "id": "76561198399217625",
+        "name": "zarbex"
+      },
+      "discord": {
+        "id": "278274544668639232",
+        "username": "zrbx",
+        "partner": false
+      },
+      "twitch": {
+        "id": "zarbex",
+        "partner": true
+      },
+      "youtube": {
+        "handle": "@zarbex",
+        "id": "UCk5IRwxIo4lYyV4PzHhWxsg",
+        "partner": true
+      }
     }
   },
-  "filow": {
-    "name": "Filow",
-    "aliases": [],
-    "steam": {
-      "id": "76561198055228237",
-      "name": "Filow"
-    },
-    "discord": {
-      "id": "289395749538627584",
-      "username": "filow",
-      "partner": false
-    },
-    "twitch": {
-      "id": "filow",
-      "partner": true
-    },
-    "youtube": {
-      "handle": "UCeyP7G6IFDUa6UypHghbxdw",
-      "id": "@Filow",
-      "partner": true
+  {
+    "filow": {
+      "name": "Filow",
+      "aliases": [],
+      "steam": {
+        "id": "76561198055228237",
+        "name": "Filow"
+      },
+      "discord": {
+        "id": "289395749538627584",
+        "username": "filow",
+        "partner": false
+      },
+      "twitch": {
+        "id": "filow",
+        "partner": true
+      },
+      "youtube": {
+        "handle": "@Filow",
+        "id": "UCeyP7G6IFDUa6UypHghbxdw",
+        "partner": true
+      }
     }
   },
-  "reeze": {
-    "name": "Reeze",
-    "aliases": [],
-    "steam": {
-      "id": "76561198131535172",
-      "name": "Reeze"
-    },
-    "discord": {
-      "id": "141704368217915392",
-      "username": "lemonreezy",
-      "partner": false
-    },
-    "twitch": {
-      "id": "reeze",
-      "partner": true
-    },
-    "youtube": {
-      "handle": "@Reeze",
-      "id": "UCaOAZtbdp0K5CCzgEXM0F6Q",
-      "partner": true
+  {
+    "reeze": {
+      "name": "Reeze",
+      "aliases": [],
+      "steam": {
+        "id": "76561198131535172",
+        "name": "Reeze"
+      },
+      "discord": {
+        "id": "141704368217915392",
+        "username": "lemonreezy",
+        "partner": false
+      },
+      "twitch": {
+        "id": "reeze",
+        "partner": true
+      },
+      "youtube": {
+        "handle": "@Reeze",
+        "id": "UCaOAZtbdp0K5CCzgEXM0F6Q",
+        "partner": true
+      }
     }
   },
-  "gronkh": {
-    "name": "Gronkh",
-    "aliases": [],
-    "steam": {
-      "id": "76561197984767093",
-      "name": "Gronkh"
-    },
-    "discord": {
-      "id": "99010890275225600",
-      "username": "grnkh",
-      "partner": false
-    },
-    "twitch": {
-      "id": "gronkh",
-      "partner": true
-    },
-    "youtube": {
-      "handle": "@gronkh",
-      "id": "UCYJ61XIK64sp6ZFFS8sctxw",
-      "partner": true
+  {
+    "gronkh": {
+      "name": "Gronkh",
+      "aliases": [],
+      "steam": {
+        "id": "76561197984767093",
+        "name": "Gronkh"
+      },
+      "discord": {
+        "id": "99010890275225600",
+        "username": "grnkh",
+        "partner": false
+      },
+      "twitch": {
+        "id": "gronkh",
+        "partner": true
+      },
+      "youtube": {
+        "handle": "@gronkh",
+        "id": "UCYJ61XIK64sp6ZFFS8sctxw",
+        "partner": true
+      }
     }
   },
-  "montanablack88": {
-    "name": "Montanablack",
-    "aliases": [
-      "Montanablack88",
-      "GetOnMyLvL",
-      "Monte",
-      "MontanaBlack88",
-      "spontanablack",
-      "SpontanaBlack"
-    ],
-    "steam": {
-      "id": "76561198202200829",
-      "name": "MisterFister"
-    },
-    "discord": {
-      "id": "332250378819338251",
-      "username": "getonmylvl",
-      "partner": false
-    },
-    "twitch": {
-      "id": "montanablack88",
-      "partner": true
-    },
-    "youtube": {
-      "handle": "@montanablack",
-      "id": "UCpAMOlA_0hFXopIxMq8ar0w",
-      "partner": true
+  {
+    "montanablack88": {
+      "name": "Montanablack",
+      "aliases": [
+        "Montanablack88",
+        "GetOnMyLvL",
+        "Monte",
+        "MontanaBlack88",
+        "spontanablack",
+        "SpontanaBlack"
+      ],
+      "steam": {
+        "id": "76561198202200829",
+        "name": "MisterFister"
+      },
+      "discord": {
+        "id": "332250378819338251",
+        "username": "getonmylvl",
+        "partner": false
+      },
+      "twitch": {
+        "id": "montanablack88",
+        "partner": true
+      },
+      "youtube": {
+        "handle": "@montanablack",
+        "id": "UCpAMOlA_0hFXopIxMq8ar0w",
+        "partner": true
+      }
     }
   }
-}
+]

@@ -5,9 +5,7 @@ import (
 )
 
 func main() {
-	server := NewAPIServer(":6575")
-	server.Run()
-	if server != nil {
-		log.Fatal(server)
-	}
+	dataPath := "../../data/creators"  // Adjust this path as needed
+	server := NewAPIServer(":8080", dataPath)
+	log.Fatal(server.Run())
 }

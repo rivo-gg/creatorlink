@@ -1,1 +1,26 @@
-[]
+{
+  "kaicenat": {
+    "name": "Kai Cenat",
+    "aliases": [
+      "Kai Carlo Cenat"
+    ],
+    "steam": {
+      "id": "",
+      "name": ""
+    },
+    "discord": {
+      "id": "",
+      "username": "",
+      "partner": false
+    },
+    "twitch": {
+      "id": "kaicenat",
+      "partner": true
+    },
+    "youtube": {
+      "handle": "@KaiCenat",
+      "id": "UCoEmptob-eEGKk18c2VplJg",
+      "partner": true
+    }
+  }
+}

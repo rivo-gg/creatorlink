@@ -1,0 +1,42 @@
+---
+import { example } from "@/data/example";
+import { Code } from "astro/components";
+---
+
+<section class="w-full py-12 md:py-24 lg:py-32">
+  <div class="container px-4 md:px-6">
+    <div class="flex flex-col items-center justify-center space-y-4 text-center">
+      <div class="space-y-2">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl text-primary">
+          Interactive JSON Example
+        </h2>
+        <p class="max-w-[900px] text-foreground/70 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
+          Explore the rich data you can access through our API:
+        </p>
+      </div>
+    </div>
+    <div class="mx-auto max-w-3xl mt-8 overflow-hidden rounded-xl relative">
+      <div class="absolute top-0 left-0 z-10 flex gap-2 p-3 w-full min-h-8 bg-foreground/5 dark:bg-foreground/10">
+        <span class="size-3 bg-red-600 rounded-full" />
+        <span class="size-3 bg-amber-600 rounded-full" />
+        <span class="size-3 bg-green-600 rounded-full" />
+      </div>
+      <div class="hidden dark:block">
+        <Code
+          lang="js"
+          code={JSON.stringify(example, null, 2)}
+          class="min-h-96 p-2 pt-12"
+          theme="material-theme-darker"
+        />
+      </div>
+      <div class="block dark:hidden">
+        <Code
+          lang="js"
+          code={JSON.stringify(example, null, 2)}
+          class="min-h-96 p-2 pt-12"
+          theme="material-theme-lighter"
+        />
+      </div>
+    </div>
+  </div>
+</section>
